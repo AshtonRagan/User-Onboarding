@@ -1,9 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
+import UserForm from "./form";
 import "./App.css";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <UserForm />
+    </div>
+  );
 }
 
 export default App;
